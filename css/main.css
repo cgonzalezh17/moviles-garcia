@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background: url(../img/fondo_os.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+    background: rgba(0, 0, 0, .3)
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: .2SSs ease-in;
+}
+ .menu a:hover{
+    color: #E30817;
+}
+header figure{
+    width: 210px;
+    height: 74px;
+    margin: 5px;
+    padding: 0;
+}
+header figure img{
+    width: 100%;
+}
+.titulo-padre{
+   margin : auto;
+}
+.titulo{
+    margin-top: 80px; 
+    text-align: center;
+    color:#fff;
+}
+.titulo h1{
+    font-size: 120px;
+}
+.titulo p{
+    font-size: 28px;
+    font-family: 'Satisfy', cursive;
+    font-weight: normal;
+}
+.titulo a{
+    margin: 25px auto 0 auto;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #E30817;
+    border-radius: 3px;
+    text-align: center;
+    transition: .4s ease-in-out;
+    text-transform: uppercase;
+}
+.titulo a:hover{
+    background: rgb(172, 4, 15);
+}
+.s1{
+    display: flex;
+    justify-content: space-around;
+    transition: .6s ease;
+    color: #fff;
+    height: 350px;
+    width: 100%;
+    background: url(../img/fondo_color.jpeg);
+}
+.s1 .texto_s1{
+
+    vertical-align: middle;
+    margin : 130px 0;
+}
+.s1 .texto_s1 h2{
+    width: 100%;
+    font-size: 48px;
+}
+.s1 .texto_s1 p{
+    width: 100%;
+    font-size: 24px;
+}
+.s1 figure {
+    position: relative;
+    width: 510px;
+   
+    
+}
+.s1 figure img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer{
+    padding: 25px;
+    background: rgb(134, 9, 9);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+footer .datos{
+    border: 1px solid #fff;
+    padding: 10px;
+    line-height: 25px;
+}
+.datos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-left:30px; 
+    color: white;
+}
+.datos:nth-child(1){
+    margin-left:0px; 
+}
+.uno, .dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dos{
+    margin-left: 25px;
+}
+footer .redes-text img{
+    width: 25px;
+    height: 25px;
+}
+footer .imagenes{
+    margin-top: 15PX;
+}
+.c p{
+    display: block;
+    text-align: center;
+}
+.s2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    color: black;
+    justify-content: space-around;
+}
+.s2 img {
+    margin-right: 25px;
+}
+.red {
+    font-size: 42px;
+    color: #E30817;
+    margin-bottom: 10px;
+}
+.lh{
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+}
+.boton{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #E30817;
+    color: #fff;
+}
+.boton:hover{
+    padding: 10px 15px;
+    background:rgb(172, 4, 15);
+    color: #fff;
+}
+#mb{
+    margin-bottom: 20px;
+}
+.s2{
+    background: url(../img/fondo_os.jpeg);
+    background-size: cover;
+}
